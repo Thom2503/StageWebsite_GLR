@@ -1,0 +1,104 @@
+
+body {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 10vw 30vw 10vw;
+  grid-gap: 1em;
+  background-repeat: no-repeat;
+  background-image: url("../img/achtergrond.jpg");
+  background-size: cover;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+header
+{
+  margin-top: 6.25em;
+  grid-column: 1 / span 2;
+  margin-bottom: -6.25em;
+  background: #ffffff;
+}
+h1
+{
+  text-align: left;
+  font-weight: bold;
+  font-family: nimbusantregconregular;
+  font-size: 3em;
+  letter-spacing: -0.038em;
+  padding-left: 0.25em;
+}
+main
+{
+  margin-top: 6.25em;
+  margin-left: -25em;
+  padding: 1.5em;
+  background: #ffffff;
+  font-family: nimbusantregconregular;
+  font-size: 20px;
+  height: 25em;
+}
+aside
+{
+  margin-top: 6.25em;
+  margin-right: 25em;
+  background: #ffffff;
+  font-family: nimbusantregconregular;
+  padding: 1.5em;
+  height: 25em;
+  font-size: 20px;
+}
+
+
+body {
+  margin: 0 auto;
+  max-width: 56em;
+  padding: 1em 0;
+}
+a {
+  text-decoration: none;
+  color: #8fe507;
+  font-weight: bold;
+}
+
+.logo{
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+.login {
+  position: absolute;
+  top: 1%;
+  left: 95%;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+.loguit {
+  position: absolute;
+  top: 1%;
+  left: 90%;
+  height: auto;
+  max-width: 100%;
+}
+table {
+  border-collapse: collapse;
+  width: 70%;
+  border: 1px solid black;
+  font-family: 'nimbusantregconregular';
+}
+
+ th, td {
+  text-align: left;
+  padding: 6px;
+}
+
+ tr:nth-child(1) {background-color: #4444;}
+
+ a {
+text-decoration: none;
+color: #8fe507;
+font-weight: bold;
+}
